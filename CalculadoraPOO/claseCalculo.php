@@ -1,3 +1,5 @@
+    <link rel="stylesheet" href="estilos.css">
+
 <?php
 
     class calculadora{

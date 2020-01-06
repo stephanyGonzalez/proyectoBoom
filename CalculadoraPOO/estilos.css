@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(253, 192, 50);
+}
+
+form{
+    text-align: center;
+}
+
+form label{
+    font-size: 55px;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+form input[type="text"],select,button{
+    border-radius: 5px;
+    border-color:rgb(255, 255, 255);
+    border-width: 2px;
+    border-style: solid;
+    width: 240px; 
+    margin-top: -300%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+
+}
+
+p{
+    font-size: 65px;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center; 
+}
+
+#consulta{
+    font-size: 65px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.resultado{
+    border-radius: 5px;
+    border-color:rgb(255, 255, 255);
+    border-width: 5px;
+    border-style: solid; 
+    width: 50%;
+    margin-left: 25%;
+}

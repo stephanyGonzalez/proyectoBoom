@@ -5,23 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="vendor\bootstrap\css\bootstrap.min.css">
-    <link rel="stylesheet" href="estilos.css">    
+    <link rel="stylesheet" href="ESTILOS.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
+
     <title>Boom</title>
+
 </head>
 <body>
 <!--     ************primer formulario*******************--> 
+  <div>
+      <h2>busca tu libro favorito</h2>
+      <h3>por titulo o autor</h3>
 
-    <h2>busca tu libro favorito</h2>
-    <h3>por titulo o autor</h3>
+      <form action="index.php" method="post" class="formBusquedas">
+          <input type="text" name="busqueda" id="busqueda" placeholder="buscar libro">
+          <input type="submit" value="buscar" class="btn_buscar" name="btn1">
+      </form>
+  </div>
+  <hr>
 
-    <form action="index.php" method="post" class="formBusquedas">
-        <input type="text" name="busqueda" id="busqueda" placeholder="buscar libro">
-        <input type="submit" value="buscar" class="btn_buscar" name="btn1">
-    </form>
-    <hr>
 
 <!--     ************segundo formulario*******************--> 
-
+<div>
     <h2>inserta tu libro favorito</h2>
     <h3> titulo y autor</h3>
 
@@ -35,6 +41,7 @@
 
         <input type="submit" value="insertar" class="btn_insertar" name="btn2">
     </form>
+  </div>
     <hr>
 
     <?php

@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(250, 174, 104);
+}
+
+form{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    border-radius:25px;
+    background-color:#ccc;
+}
+
+a{
+    font-size: 25px;
+    text-decoration: none;
+    border-color:black;
+    border-width: 2px;
+    border-style: solid; 
+    border-radius: 5px;
+    color: black;
+    margin:50px;
+    margin-top: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 3px;
+}
+
+form input[type="text"]{
+    border-radius: 5px;
+    border-color: white;
+}
+
+form input[type="submit"]{
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	color:#fff;
+    background-color:#000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+
+p{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+} 
+
+h1{
+    color: rgb(84, 115, 172);
+    margin-left: 165px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3{
+    font-size: 20px;
+    font-family: cursive; 
+    color: rgb(255, 255, 255);
+    background-color:  rgb(84, 115, 172);
+    width: 25%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+div{
+    font-family: 'Bangers', cursive;
+}
+
+
+
+
+
+
+
+
+
